@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section class="navbar">
+      <nav class="section-center">
+        <div class="logo-container">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+        <div class="nav-links">
+          <div class="nav-links2">
+            <p class="number">08 600 60 000</p>
+            <p class="btn">START A QUOTE</p>
+            <p class="btn">SUBMIT A CLAIM</p>
+          </div>
+          <div class="nav-other-links">
+            <a href="#">Products</a>
+            <a href="#">Claims</a>
+            <a href="#">My Policy</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Help@Out</a>
+          </div>
+        </div>
+        <div class="login">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40"
+            width="40"
+            viewBox="0 0 512 512"
+          >
+            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+            <path
+              fill="#31123f"
+              d="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"
+            />
+          </svg>
+          <a href="#" class="login-text">Log In</a>
+        </div>
+        <a href="#" class="phone-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="25"
+            width="25"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+            />
+          </svg>
+        </a>
+        <a href="#" target="_blank" class="bar-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="25"
+            width="25"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </a>
+      </nav>
+    </section>
+    <!-- end of navbar -->
+
+    <!-- body -->
+    <section class="main-body">
+      <!-- description -->
+      <section class="section-center desc">
+        <h2 class="main-head">
+          Life insurance
+          <br />
+          calculator.
+        </h2>
+        <p>
+          Complete all fields that apply to you to calculate the replacement
+          value.
+        </p>
+      </section>
+      <!-- end of description -->
+
+      <!-- input fields -->
+      <form action="" class="form">
+        <section>
+          <!-- single field -->
+          <article class="single-field">
+            <div class="field-head section-center">
+              <h3>Income Support</h3>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                width="14"
+                viewBox="0 0 448 512"
+                class="more-btn"
+              >
+                <path
+                  fill="#26e600"
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                />
+              </svg>
+            </div>
+
+            <div class="wrapper-div">
+              <div class="all-input-fields">
+                <div class="section-center field-section">
+                  <div class="input-field two-col">
+                    <h4 class="input-desc">
+                      What is your monthly income after tax?
+                    </h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="monthlyIncome"
+                    />
+                  </div>
+
+                  <div class="input-field two-col">
+                    <h4 class="input-desc">
+                      How many years would your family need the support of your
+                      income?
+                    </h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="years"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- end of single field -->
+          <!-- single field -->
+          <article class="single-field">
+            <div class="field-head section-center">
+              <h3>Additional cover</h3>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                width="14"
+                viewBox="0 0 448 512"
+                class="more-btn"
+              >
+                <path
+                  fill="#26e600"
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                />
+              </svg>
+            </div>
+
+            <div class="death-disab-div">
+              <h3 class="death-text">Death</h3>
+              <h3 class="disab-text">Disability</h3>
+            </div>
+
+            <div class="wrapper-div">
+              <div class="all-input-fields">
+                <div class="section-center field-section three-col">
+                  <div class="input-field">
+                    <h4 class="input-desc">
+                      Additional cover to pay off debt?
+                    </h4>
+                    <h5 class="input-desc-small">Death</h5>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="Add-cover-death"
+                    />
+                  </div>
+
+                  <div class="input-field">
+                    <h4 class="input-desc-small">Disability</h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="Add-cover-disab"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- end of single field -->
+          <!-- single field -->
+          <article class="single-field">
+            <div class="field-head section-center">
+              <h3>Lump sum cover</h3>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                width="14"
+                viewBox="0 0 448 512"
+                class="more-btn"
+              >
+                <path
+                  fill="#26e600"
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                />
+              </svg>
+            </div>
+
+            <div class="wrapper-div">
+              <div class="all-input-fields">
+                <div class="section-center field-section three-col">
+                  <div class="input-field">
+                    <h4 class="input-desc">
+                      How much lump sum cover do you already have in place
+                      through other policies?
+                    </h4>
+                    <h4 class="input-desc-small">Death</h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="lump-cov-death"
+                    />
+                  </div>
+
+                  <div class="input-field">
+                    <h4 class="input-desc-small">Disability</h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="lump-cov-disab"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- end of single field -->
+          <!-- single field -->
+          <article class="single-field">
+            <div class="field-head section-center">
+              <h3>Income Cover</h3>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                width="14"
+                viewBox="0 0 448 512"
+                class="more-btn"
+              >
+                <path
+                  fill="#26e600"
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                />
+              </svg>
+            </div>
+
+            <div class="wrapper-div">
+              <div class="all-input-fields">
+                <div class="section-center field-section three-col">
+                  <div class="input-field">
+                    <h4 class="input-desc">
+                      How much monthly income replacement cover do you already
+                      have in place through other policies?
+                    </h4>
+                    <h4 class="input-desc-small">Death</h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="repl-death"
+                    />
+                  </div>
+
+                  <div class="input-field">
+                    <h4 class="input-desc-small">Disability</h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="0"
+                      id="repl-disab"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- end of single field -->
+          <!-- single field -->
+          <article class="single-field">
+            <div class="field-head section-center">
+              <h3>Funeral Cover</h3>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="16"
+                width="14"
+                viewBox="0 0 448 512"
+                class="more-btn"
+              >
+                <path
+                  fill="#26e600"
+                  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"
+                />
+              </svg>
+            </div>
+
+            <div class="wrapper-div">
+              <div class="all-input-fields">
+                <div class="section-center field-section">
+                  <div class="input-field">
+                    <h4 class="input-desc">
+                      Additional cover required for funeral expenses (death)?
+                    </h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="100000"
+                      id="fune-cover"
+                    />
+                  </div>
+
+                  <div class="input-field">
+                    <h4 class="input-desc">
+                      How many years would your family need the support of your
+                      income?
+                    </h4>
+                    <input
+                      type="text"
+                      placeholder="R"
+                      class="form-input"
+                      value="200000"
+                      id="fune-years"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- end of single field -->
+        </section>
+        <!-- end of input fields -->
+
+        <section class="calculator">
+          <article class="section-center calc-section">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="16"
+              width="14"
+              viewBox="0 0 448 512"
+              class="line-icon"
+            >
+              <path
+                fill="#ffffff"
+                d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+            <div class="calculator-content">
+              <h4 class="calc-head">
+                Additional cover needed in the event of your
+              </h4>
+              <div class="events show-details">
+                <div class="single-event flex-col">
+                  <h4 class="event-head">Death</h4>
+                  <p class="event-pay" id="deathPay">R 100000</p>
+                </div>
+                <div class="single-event flex-col">
+                  <h4 class="event-head">Disability</h4>
+                  <p class="event-pay" id="disabPay">R 200000</p>
+                </div>
+              </div>
+              <p class="event-desc">
+                With life insurance, you get all the cover you need in the event
+                of death, disability or critical illness. We also provide an
+                accelerated terminal illness benefit and optional funeral
+                benefits.
+              </p>
+              <button class="btn btn-green" type="submit">SEE SUMARY</button>
+              <button class="btn btn-trans" type="reset">Reset</button>
+            </div>
+          </article>
+        </section>
+      </form>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
